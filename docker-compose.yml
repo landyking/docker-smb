@@ -5,7 +5,8 @@ services:
     tty: true
     network_mode: bridge
     volumes:
-      - /mnt/hdd_repo/Shared/:/Shared
+      - /Users/landy/Downloads/apks/:/Shared
+      - /Users/landy/workspace/github/docker-smb/smb.conf:/etc/samba/smb.conf
     ports:
       - "139:139"
       - "445:445"

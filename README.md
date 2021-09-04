@@ -53,3 +53,10 @@ $ docker-compose up -d
 
 The repository is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## Modify conf to support MiBox
+
+- The MiBox only support SMB v1
+- https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html
+- https://stackoverflow.com/questions/63372848/how-to-enable-smb1-as-default-and-disable-smb2-and-smb3-on-ubuntu-18-04-server
+- http://blog.robtherock.de/how-to-re-enable-smb1-shares-in-ubuntu-18-04-i-e-for-scanners-and-printers/
+
